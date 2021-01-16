@@ -13,13 +13,14 @@ computed as follows: the player wins (reward+1) if player’s sum is larger than
 
 ## Q-learning
 The Q-learning algorithm is a value-based off-policy algorithm in reinforcement learning. Its essence is to obtain a Q table through learning. Q table is Q(state,action), which reflects the expectation of gaining benefits by taking action actions under a certain state line. The environment will return the corresponding reward R based on the agent's action feedback, so the main idea of the algorithm is to construct a Q-table to store the Q value of State and Action, and then select the action that can obtain the greatest benefit based on the Q value.
-Besides, \epsilon -greedy is used to make the agent choose the action which results in a larger Q value most time and otherwise, randomly choose an action.
+Besides, $\epsilon$ -greedy is used to make the agent choose the action which results in a larger Q value most time and otherwise, randomly choose an action.
 
-The episode is set as 10000. By experiments, when \epsilon is set as 0.8 and learning rate \alpha is set as 0.001, the winning rate reaches the highest.
+The episode is set as 10000. By experiments, when $\epsilon$ is set as 0.8 and learning rate $\alpha$ is set as 0.001, the winning rate reaches the highest.
 
 The optimal state-value function is as follows.
+![image](https://github.com/Serberusy/Easy21/blob/main/img/e08-a001-1.png)
 
 The policy table is as follows(the yellow block presents hit, and the blue block presents stick).
-
+![image](https://github.com/Serberusy/Easy21/blob/main/img/e08-a001-2.png)
 
 ## Policy Iteration
