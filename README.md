@@ -30,6 +30,10 @@ The key of the strategy iteration algorithm is to update the value function of e
 
 The strategy iteration algorithm is mainly composed of two parts: strategy evaluation and strategy improvement. The value function of the state will be updated in the process of strategy evaluation. Starting from an initial strategy, the strategy is continuously evaluated, improved, re-evaluated, and improved until the strategy converges.
 
-Set the reward descending rate γ as 0.15, the optimal state-value function is as follows.
+Set θ as 0.15, the optimal state-value function is as follows.
+
+![image](https://github.com/Serberusy/Easy21/blob/main/img/theta015-2.png)
 
 And the policy table is as follows.
+
+![image](https://github.com/Serberusy/Easy21/blob/main/img/theta015-1.png)
